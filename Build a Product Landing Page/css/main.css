@@ -1,0 +1,123 @@
+/** global element styling **/
+
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+
+body {
+  
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+/** global classes styling **/
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+ 
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+}
+
+header{
+  background: brown;
+  
+
+}
+
+
+.logo {
+  width: 100vw;
+}
+
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+
+nav {
+  font-weight: 400;
+}
+
+
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#hero{
+  display: block;
+  margin-top: 100px;
+  margin-left: 1000px;
+}
+#how-it-work{
+  margin: 50px 100px 50px ;
+}
+
+
+#pricing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+.btn{
+  background: yellow;
+  font-weight: bold;
+  border-radius: 2px;
+  
+}
